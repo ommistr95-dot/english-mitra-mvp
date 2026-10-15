@@ -3,12 +3,12 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>English Mitra MVP</title>
+  <title>English Mitra — MVP</title>
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
   <header>
-    <h1>English Mitra — MVP</h1>
+    <h1>English Mitra</h1>
     <div class="controls">
       <label class="toggle"><input id="langToggle" type="checkbox" /> Hindi explanations</label>
       <button id="githubBtn">Open GitHub</button>
@@ -27,8 +27,19 @@
   <main>
     <section id="home" class="section active">
       <h2>Welcome</h2>
+      <div class="onboard" id="onboard">
+        <h3>Quick Onboarding</h3>
+        <p>Choose your purpose to tailor lessons:</p>
+        <div class="purpose-buttons">
+          <button class="pur" data-pur="conversational">Conversational</button>
+          <button class="pur" data-pur="academic">Academic / College</button>
+          <button class="pur" data-pur="travel">Travel / Transactional</button>
+        </div>
+        <p>Suggested daily goal: 30 minutes — vocab + speaking + 1 grammar micro-lesson.</p>
+        <button id="onboardClose">Start</button>
+      </div>
       <p>Quick web MVP to practice English (India/Bihar-centric). Use Chrome for best voice support.</p>
-      <p>Try Diagnostic → Vocabulary → Speaking to test core flow.</p>
+      <p>Try Diagnostic → Vocabulary �� Speaking to test core flow.</p>
     </section>
 
     <section id="diagnostic" class="section">
@@ -40,10 +51,16 @@
 
     <section id="vocab" class="section">
       <h2>Vocabulary</h2>
-      <div id="vocabSets"></div>
+      <div class="vocab-top">
+        <div id="vocabSets"></div>
+        <label><input id="dueOnly" type="checkbox"/> Show due cards only</label>
+      </div>
       <div id="flashcard"></div>
       <div class="srs-controls">
-        <button id="remembered">Mark Remembered</button>
+        <button class="rate" data-q="0">Again</button>
+        <button class="rate" data-q="3">Hard</button>
+        <button class="rate" data-q="4">Good</button>
+        <button class="rate" data-q="5">Easy</button>
         <button id="nextCard">Next</button>
       </div>
     </section>
@@ -56,7 +73,10 @@
     <section id="speaking" class="section">
       <h2>Speaking Practice</h2>
       <div id="speakingPrompt"></div>
-      <button id="recordBtn">Start Recording</button>
+      <div class="speaking-controls">
+        <button id="playPrompt">Play prompt</button>
+        <button id="recordBtn">Start Recording</button>
+      </div>
       <div id="transcript"></div>
       <div id="speakingFeedback"></div>
     </section>
@@ -64,6 +84,7 @@
     <section id="progress" class="section">
       <h2>Progress</h2>
       <div id="progressContainer"></div>
+      <div id="miniChart"></div>
     </section>
   </main>
 
@@ -72,7 +93,6 @@
   </footer>
 
 <script>
-// Small inline script to open repo button link updated by app.js after fetch
 document.getElementById('githubBtn').addEventListener('click', ()=>{
   window.open('https://github.com/ommistr95-dot/english-mitra-mvp','_blank')
 })

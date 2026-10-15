@@ -2,14 +2,62 @@
   "daily_life": [
     {"word":"ticket","meaning":"a pass to travel (टिकट)","hindi":"टिकट","example":"Buy a train ticket from Patna to Delhi."},
     {"word":"queue","meaning":"line of people waiting (कतार)","hindi":"कतार","example":"Stand in the queue at the ration shop."},
-    {"word":"ration card","meaning":"government document for food subsidy (राशन कार्ड)","hindi":"राशन कार्ड","example":"Carry your ration card for proof of identity."}
+    {"word":"ration card","meaning":"government document for food subsidy (राशन कार्ड)","hindi":"राशन कार्ड","example":"Carry your ration card for proof of identity."},
+    {"word":"platform","meaning":"place where trains stop (प्लेटफ़ॉर्म)","hindi":"प्लेटफ़ॉर्म","example":"Meet me on platform number 2."},
+    {"word":"compartment","meaning":"train coach section (कंपार्टमेंट)","hindi":"कंपार्टमेंट","example":"Our compartment is near the middle of the train."},
+    {"word":"reservation","meaning":"booking seat in advance (आरक्षण)","hindi":"आरक्षण","example":"Check the reservation status before travel."},
+    {"word":"pocket money","meaning":"small amount of cash for daily expenses (खर्च की राशि)","hindi":"खर्च़ की राशि","example":"I have 200 rupees as pocket money."},
+    {"word":"exchange","meaning":"change money or items (बदलाव)","hindi":"बदलाव","example":"You can exchange currency at the bank."},
+    {"word":"bill","meaning":"payment due (बिल)","hindi":"बिल","example":"Pay the electricity bill before due date."},
+    {"word":"meter","meaning":"device that measures fare (मीटर)","hindi":"मीटर","example":"Ask the auto driver to use the meter."}
   ],
   "college": [
     {"word":"admission","meaning":"joining a course (प्रवेश)","hindi":"प्रवेश","example":"She completed admission in the local college."},
-    {"word":"scholarship","meaning":"financial help for students (छात्रवृत्ति)","hindi":"छात्रवृत्ति","example":"Apply for scholarship before the deadline."}
+    {"word":"scholarship","meaning":"financial help for students (छात्रवृत्ति)","hindi":"छात्रवृत्ति","example":"Apply for scholarship before the deadline."},
+    {"word":"semester","meaning":"half-year academic term (सेमेस्टर)","hindi":"सेमेस्टर","example":"The semester exams start in March."},
+    {"word":"attendance","meaning":"presence in class (उपस्थित)","hindi":"उपस्थिति","example":"Maintain 75% attendance to be eligible for exams."},
+    {"word":"hostel","meaning":"student accommodation (हॉस्टल)","hindi":"हॉस्टल","example":"I live in the college hostel."},
+    {"word":"mess","meaning":"dining facility in hostel (मेस)","hindi":"मेस","example":"The mess food is served at 8 AM."},
+    {"word":"library","meaning":"place to read and borrow books (पुस्तकालय)","hindi":"पु���्तकालय","example":"Return library books on time."},
+    {"word":"assignment","meaning":"homework or project (असाइनमेंट)","hindi":"असाइनमेंट","example":"Submit the programming assignment by Friday."}
   ],
   "travel": [
     {"word":"platform","meaning":"place where trains stop (प्लेटफ़ॉर्म)","hindi":"प्लेटफ़ॉर्म","example":"Meet me on platform number 2."},
-    {"word":"auto-rickshaw","meaning":"three-wheeler for short travel (ऑटो)","hindi":"ऑटो","example":"Take an auto-rickshaw to the bus stand."}
+    {"word":"auto-rickshaw","meaning":"three-wheeler for short travel (ऑटो)","hindi":"ऑटो","example":"Take an auto-rickshaw to the bus stand."},
+    {"word":"ticket counter","meaning":"place to buy tickets (टिकट काउंटर)","hindi":"टिकट काउंटर","example":"Go to the ticket counter for reserved tickets."},
+    {"word":"boarding","meaning":"getting on a vehicle (चढ़ना)","hindi":"चढ़ना","example":"Boarding starts 15 minutes before departure."},
+    {"word":"platform number","meaning":"train stopping place number (प्लेटफ़ॉर्म नंबर)","hindi":"प्लेटफ़ॉर्म नंबर","example":"Your train will arrive on platform number 3."}
+  ],
+  "banking": [
+    {"word":"account","meaning":"bank record of money (खाता)","hindi":"खाता","example":"Open a savings account at the bank."},
+    {"word":"withdraw","meaning":"take out money (निकालना)","hindi":"निकालना","example":"I need to withdraw cash from the ATM."},
+    {"word":"deposit","meaning":"put money into bank (जमा करना)","hindi":"जमा करना","example":"Deposit the scholarship money into your account."},
+    {"word":"balance","meaning":"amount left in account (बैलेंस)","hindi":"बैलेंस","example":"Check your account balance after withdrawal."},
+    {"word":"passbook","meaning":"bank record book (पासबुक)","hindi":"पासबुक","example":"Update your passbook at the bank branch."}
+  ],
+  "health": [
+    {"word":"clinic","meaning":"small health centre (क्लिनिक)","hindi":"क्लिनिक","example":"Visit the clinic if you have a fever."},
+    {"word":"prescription","meaning":"doctor's medicine instructions (प्रेस्क्रिप्शन)","hindi":"प्रेस्क्रिप्शन","example":"Take the prescription to the chemist."},
+    {"word":"appointment","meaning":"scheduled meeting with doctor (नियुक्ति)","hindi":"नियुक्ति","example":"Book an appointment with the doctor."}
+  ],
+  "job_interview": [
+    {"word":"resume","meaning":"summary of skills (रिज़्यूमे)","hindi":"रिज़्यूमे","example":"Prepare your resume before applying."},
+    {"word":"interview","meaning":"meeting for job selection (इंटरव्यू)","hindi":"इंटरव्यू","example":"Practice common interview questions."},
+    {"word":"qualification","meaning":"education or skill requirement (योग्यता)","hindi":"योग्यता","example":"List your qualifications clearly on the resume."}
+  ],
+  "shopping": [
+    {"word":"bargain","meaning":"negotiate price (मोलभाव)","hindi":"मोलभाव","example":"Try to bargain a little at the market."},
+    {"word":"discount","meaning":"reduction in price (छूट)","hindi":"छूट","example":"Ask if there is any discount available."},
+    {"word":"receipt","meaning":"proof of payment (रसीद)","hindi":"रसीद","example":"Keep the receipt after purchase."}
+  ],
+  "hostel": [
+    {"word":"warden","meaning":"person in charge of hostel (वार्डन)","hindi":"वार्डन","example":"Report the issue to the hostel warden."},
+    {"word":"mess fee","meaning":"payment for meals in hostel (मेस शुल्क)","hindi":"मेस शुल्क","example":"Pay the mess fee monthly."},
+    {"word":"roommate","meaning":"person sharing the room (रूममेट)","hindi":"रूममेट","example":"My roommate is from Bihar."}
+  ],
+  "technology": [
+    {"word":"internet","meaning":"network for web (इंटरनेट)","hindi":"इंटरनेट","example":"Use the internet to study online."},
+    {"word":"email","meaning":"electronic mail (ईमेल)","hindi":"ईमेल","example":"Send your application by email."},
+    {"word":"password","meaning":"secret code to login (पासवर्ड)","hindi":"पासवर्ड","example":"Create a strong password for your account."}
   ]
 }

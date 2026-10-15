@@ -1,18 +1,24 @@
-/* styles.css - simple responsive styles */
-*{box-sizing:border-box;font-family:system-ui,Segoe UI,Roboto,'Noto Sans',sans-serif}
-body{margin:0;color:#111;background:#f7fafc}
-header{background:#0f172a;color:#fff;padding:12px 16px;display:flex;align-items:center;justify-content:space-between}
-header h1{margin:0;font-size:1.1rem}
-.controls{display:flex;gap:10px;align-items:center}
+/* styles.css - improved responsive styles and UI polish */
+*{box-sizing:border-box;font-family:Inter,system-ui,Segoe UI,Roboto,'Noto Sans',sans-serif}
+body{margin:0;color:#0f172a;background:#f8fafc}
+header{background:#0f172a;color:#fff;padding:14px 18px;display:flex;align-items:center;justify-content:space-between}
+header h1{margin:0;font-size:1.2rem}
+.controls{display:flex;gap:12px;align-items:center}
 .toggle input{margin-right:8px}
-nav{display:flex;gap:6px;padding:8px 12px;background:#fff;border-bottom:1px solid #e2e8f0;flex-wrap:wrap}
-nav button{background:#e2e8f0;border:0;padding:8px 12px;border-radius:6px;cursor:pointer}
+nav{display:flex;gap:8px;padding:10px 14px;background:#fff;border-bottom:1px solid #e2e8f0;flex-wrap:wrap}
+nav button{background:#e2e8f0;border:0;padding:8px 12px;border-radius:8px;cursor:pointer}
 nav button.active{background:#0ea5a4;color:#fff}
-main{padding:16px}
+main{padding:20px}
 .section{display:none}
 .section.active{display:block}
-#flashcard{background:#fff;padding:16px;border-radius:8px;box-shadow:0 2px 6px rgba(0,0,0,0.06);margin-top:12px}
-.srs-controls{margin-top:8px}
-button{cursor:pointer}
+.onboard{background:#fff;padding:12px;border-radius:8px;box-shadow:0 2px 8px rgba(2,6,23,0.08);max-width:720px}
+.purpose-buttons{display:flex;gap:8px;margin:8px 0}
+.purpose-buttons .pur{background:#f1f5f9;border:1px solid #e2e8f0;padding:8px 10px;border-radius:8px}
+#flashcard{background:#fff;padding:18px;border-radius:10px;box-shadow:0 6px 18px rgba(2,6,23,0.06);margin-top:12px}
+.srs-controls{margin-top:12px;display:flex;gap:8px;flex-wrap:wrap}
+.srs-controls .rate{background:#fff;border:1px solid #cbd5e1;padding:8px 10px;border-radius:8px}
+.srs-controls button#nextCard{background:#0ea5a4;color:#fff;border:0;padding:8px 12px;border-radius:8px}
+.speaking-controls{display:flex;gap:8px;margin-top:8px}
+#miniChart{margin-top:12px}
 footer{padding:12px;text-align:center;color:#475569}
-@media (min-width:800px){main{max-width:900px;margin:0 auto}}
+@media (min-width:900px){main{max-width:920px;margin:0 auto}}

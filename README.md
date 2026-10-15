@@ -1,32 +1,22 @@
-# English Mitra MVP
+# English Mitra MVP — feature/ui-srs
 
-This repository contains a lightweight web MVP for a personalized English learning app focused on India/Bihar-relevant vocabulary and conversational practice.
+This branch adds the following improvements:
 
-Features added in this commit:
-- Hindi toggle for explanations
-- Multiple vocab sets (daily life, college, travel) with Bihar-friendly examples
-- Flashcard UI with simple SRS marking (stored in localStorage)
-- Grammar micro-lesson (articles) with Hindi and English explanations
-- Speaking practice using browser SpeechRecognition (Web Speech API) with simple keyword scoring
-- Diagnostic quick quiz
-- Progress view
+- SM-2 spaced repetition scheduling for flashcards (rate with Again/Hard/Good/Easy)
+- Flashcard UI polish and "Show due cards only" toggle
+- Onboarding modal to choose purpose (conversational/academic/travel)
+- TTS "Play prompt" for speaking prompts
+- Improved speaking scorer: keyword match + WER (Levenshtein words)
+- Mini chart for last-7-days speaking attempts
+- Expanded vocabulary sets (multiple categories, Bihar/India-centric)
 
-How to run locally:
-1. Clone the repo:
-   git clone https://github.com/ommistr95-dot/english-mitra-mvp.git
-2. Change directory:
-   cd english-mitra-mvp
-3. Start a simple HTTP server (required for speech APIs in some browsers):
-   python3 -m http.server 8000
-4. Open in Chrome: http://localhost:8000
+How to test locally:
+1. Checkout branch: git checkout feature/ui-srs
+2. Run local HTTP server: python3 -m http.server 8000
+3. Open http://localhost:8000 in Chrome
 
-Notes:
-- Use Chrome for better SpeechRecognition support (en-IN language).
-- This is a free prototype; data is stored in browser localStorage. For public launch, we'll add backend + authentication + model endpoints.
-
-Next improvement ideas:
-- Improve speaking scoring with phoneme alignment or Whisper-based ASR
-- Add more lessons, Hindi content & Bihar-specific dialogues
-- Deploy to GitHub Pages for public testing
-- Add user accounts and persistent backend
+Next steps after testing:
+- Add more vocab cards if needed (I can expand to 200+)
+- Add backend for persistent storage (Firebase/Supabase)
+- Add Whisper-based ASR prototype
 
