@@ -1,0 +1,15 @@
+{
+  "daily_life": [
+    {"word":"ticket","meaning":"a pass to travel (टिकट)","hindi":"टिकट","example":"Buy a train ticket from Patna to Delhi."},
+    {"word":"queue","meaning":"line of people waiting (कतार)","hindi":"कतार","example":"Stand in the queue at the ration shop."},
+    {"word":"ration card","meaning":"government document for food subsidy (राशन कार्ड)","hindi":"राशन कार्ड","example":"Carry your ration card for proof of identity."}
+  ],
+  "college": [
+    {"word":"admission","meaning":"joining a course (प्रवेश)","hindi":"प्रवेश","example":"She completed admission in the local college."},
+    {"word":"scholarship","meaning":"financial help for students (छात्रवृत्ति)","hindi":"छात्रवृत्ति","example":"Apply for scholarship before the deadline."}
+  ],
+  "travel": [
+    {"word":"platform","meaning":"place where trains stop (प्लेटफ़ॉर्म)","hindi":"प्लेटफ़ॉर्म","example":"Meet me on platform number 2."},
+    {"word":"auto-rickshaw","meaning":"three-wheeler for short travel (ऑटो)","hindi":"ऑटो","example":"Take an auto-rickshaw to the bus stand."}
+  ]
+}

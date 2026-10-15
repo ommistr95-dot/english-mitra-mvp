@@ -1,0 +1,8 @@
+{
+  "articles":{
+    "title":"Using articles (a, an, the)",
+    "explanation":"Use 'a' before consonant sounds (a dog), 'an' before vowel sounds (an apple). Use 'the' when both speaker and listener know the thing (the train we discussed).",
+    "explanation_hindi":"'a' का उपयोग सहायक वाक्यों में और अंग्रेज़ी में उपयोग के लिए होता है; अगर शब्द स्वर से शुरू होता है तो 'an' और यदि दोनों जानते हों तो 'the' इस्तेमाल करें।",
+    "examples":["I saw a boy at the station.","She bought an umbrella.","The train is late."]
+  }
+}

@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>English Mitra MVP</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header>
+    <h1>English Mitra — MVP</h1>
+    <div class="controls">
+      <label class="toggle"><input id="langToggle" type="checkbox" /> Hindi explanations</label>
+      <button id="githubBtn">Open GitHub</button>
+    </div>
+  </header>
+
+  <nav>
+    <button data-section="home" class="active">Home</button>
+    <button data-section="diagnostic">Diagnostic</button>
+    <button data-section="vocab">Vocabulary</button>
+    <button data-section="grammar">Grammar</button>
+    <button data-section="speaking">Speaking</button>
+    <button data-section="progress">Progress</button>
+  </nav>
+
+  <main>
+    <section id="home" class="section active">
+      <h2>Welcome</h2>
+      <p>Quick web MVP to practice English (India/Bihar-centric). Use Chrome for best voice support.</p>
+      <p>Try Diagnostic → Vocabulary → Speaking to test core flow.</p>
+    </section>
+
+    <section id="diagnostic" class="section">
+      <h2>Diagnostic (Quick)</h2>
+      <div id="diagContainer"></div>
+      <button id="diagStart">Start Diagnostic</button>
+      <div id="diagResult"></div>
+    </section>
+
+    <section id="vocab" class="section">
+      <h2>Vocabulary</h2>
+      <div id="vocabSets"></div>
+      <div id="flashcard"></div>
+      <div class="srs-controls">
+        <button id="remembered">Mark Remembered</button>
+        <button id="nextCard">Next</button>
+      </div>
+    </section>
+
+    <section id="grammar" class="section">
+      <h2>Grammar Micro-lesson</h2>
+      <div id="lessonContainer"></div>
+    </section>
+
+    <section id="speaking" class="section">
+      <h2>Speaking Practice</h2>
+      <div id="speakingPrompt"></div>
+      <button id="recordBtn">Start Recording</button>
+      <div id="transcript"></div>
+      <div id="speakingFeedback"></div>
+    </section>
+
+    <section id="progress" class="section">
+      <h2>Progress</h2>
+      <div id="progressContainer"></div>
+    </section>
+  </main>
+
+  <footer>
+    <small>Built for quick testing — data stored in browser. Deploy to GitHub Pages for free testing.</small>
+  </footer>
+
+<script>
+// Small inline script to open repo button link updated by app.js after fetch
+document.getElementById('githubBtn').addEventListener('click', ()=>{
+  window.open('https://github.com/ommistr95-dot/english-mitra-mvp','_blank')
+})
+</script>
+
+<script src="app.js"></script>
+</body>
+</html>
